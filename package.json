@@ -24,7 +24,7 @@
     "workerDirectory": "public"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "start:worker": "REACT_APP_MSW=active react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
